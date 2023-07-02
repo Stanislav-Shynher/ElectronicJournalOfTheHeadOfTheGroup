@@ -1,0 +1,137 @@
+/* Налаштування основного - початок */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../images/fon2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+/* Налаштування основного - кінець */
+
+/* Налаштування панелі авторизації - початок */
+
+.auth_menu {
+    text-align: center;
+    margin-top: 300px;
+    padding-top: 32px;
+    width: 500px;
+    height: 530px;
+    background-color: #263B7C;
+    border-radius: 32px;
+    border: 2px solid yellow;
+}
+
+.Logo img {
+    margin: 16px;
+    width: 64px;
+    height: 64px;
+}
+
+.auth_h2 {
+    padding: 16px;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+}
+
+.auth_h2 h2 {
+    color: gold;
+}
+
+.auth_buttons form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.auth_buttons input {
+    margin: 10px 0px;
+    padding: 10px;
+    border: 2px solid yellow;
+    border-radius: 16px;
+    outline: none;
+}
+
+.auth_buttons button {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #C0C0C0;
+    border: 2px solid yellow;
+    border-radius: 16px;
+    outline: none;
+}
+
+.auth_buttons label {
+    color: yellow;
+    font-size: 20px;
+}
+
+.Logo:hover img {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.msg {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #b7625c;
+}
+
+/* Налаштування панелі авторизації - кінець */
+
+/* Налаштування навігаційної панелі - початок */
+
+.nav_menu {
+    text-align: center;
+    margin-top: 300px;
+    padding-top: 32px;
+    width: 500px;
+    height: 500px;
+    background-color: #263B7C;
+    border-radius: 32px;
+    border: 2px solid yellow;
+}
+
+.Logo img {
+    margin: 16px;
+    width: 64px;
+    height: 64px;
+}
+
+.nav_h2 {
+    padding: 16px;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+}
+
+.nav_h2 h2 {
+    color: gold;
+}
+
+.nav_buttons a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav_buttons a:hover {
+    color: yellow;
+}
+
+.Logo:hover img {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+/* Налаштування навігаційної панелі - кінець */

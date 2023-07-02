@@ -1,0 +1,239 @@
+/* Налаштування основного - початок */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../images/fon2.jpg);
+}
+
+/* Налаштування основного - кінець */
+
+/* Налаштування навігаційної панелі - початок */
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #263B7C;
+    height: 110px;
+    border-bottom: 2px solid yellow;
+}
+
+.Logo, .nav_menu {
+    margin-right: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Logo img {
+    vertical-align: middle;
+    width: 36px;
+}
+
+.nav_h2 {
+    color: yellow;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 70px;
+}
+
+.nav_menu li {
+    margin-right: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav_menu .page_now {
+    color: gold;
+}
+
+.nav_menu a {
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+.exit_button {
+    color: #b7625c;
+}
+
+.nav_menu a:hover {
+    color: yellow;
+}
+
+.nav_menu button:hover {
+    color: yellow;
+}
+
+.Logo:hover img {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+/* Налаштування навігаційної панелі - кінець */
+
+/* Налаштування заголовку - початок */
+
+.main_h1 {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    padding: 8px;
+    width: 500px;
+    background-color: #263B7C;
+    border: 2px solid yellow;
+    border-radius: 16px;
+}
+
+.main_h1 h1 {
+    color: white;
+}
+
+/* Налаштування заголовку - кінець */
+
+/* Налаштування форми додавання - початок */
+
+.main_form p {
+    margin-left: 50px;
+    padding-bottom: 8px;
+    color: yellow;
+}
+
+.main_form h3 {
+    color: white;
+    margin-left: 60px;
+    padding-bottom: 4px;
+}
+
+.main_form input {
+    margin-left: 50px;
+    margin-bottom: 8px;
+    outline: none;
+}
+
+.main_form button {
+    margin-left: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #C0C0C0;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Налаштування форми додавання - кінець */
+
+/* Налаштування таблиць - початок */
+
+.main_table {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+}
+
+.table th, td {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.table th {
+    /* background-color: #606060; */
+    background-color: #263B7C;
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+.table td {
+    background-color: #b5b5b5;
+}
+
+.table a {
+    text-decoration: none;
+}
+
+.table img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Налаштування таблиць - кінець */
+
+/* Налаштування сторінки розкладу - початок */
+
+.shedule_form {
+    margin-top: 32px;
+    margin-left: 800px;
+    padding: 8px;
+    width: 300px;
+    height: 300px;
+    background-color: #263B7C;
+    border: 2px solid yellow;
+    border-radius: 16px;
+}
+
+/* Налаштування сторінки розкладу - кінець */
+
+/* Налаштування сторінки групи - початок */
+
+.group_form {
+    margin-top: 32px;
+    margin-left: 800px;
+    padding: 8px;
+    width: 300px;
+    height: 300px;
+    background-color: #263B7C;
+    border: 2px solid yellow;
+    border-radius: 16px;
+}
+
+/* Налаштування сторінки групи - кінець */
+
+/* Налаштування сторінки відвідувань - початок */
+
+.visiting_form {
+    margin-top: 32px;
+    margin-left: 800px;
+    padding: 8px;
+    width: 300px;
+    height: 260px;
+    background-color: #263B7C;
+    border: 2px solid yellow;
+    border-radius: 16px;
+}
+
+.visiting_h1 {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    padding: 8px;
+    width: 500px;
+    background-color: #263B7C;
+    border: 2px solid yellow;
+    border-radius: 16px;
+}
+
+.visiting_h1 h1 {
+    font-size: 16px;
+    color: white;
+}
+
+.visiting_view_form {
+    margin-top: 32px;
+    margin-left: 800px;
+    padding: 8px;
+    width: 300px;
+    height: 800px;
+    background-color: #263B7C;
+    border: 2px solid yellow;
+    border-radius: 16px;
+}
+
+/* Налаштування сторінки відвідувань - кінець */
